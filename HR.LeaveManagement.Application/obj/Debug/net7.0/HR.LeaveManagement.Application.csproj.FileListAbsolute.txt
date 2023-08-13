@@ -1,0 +1,17 @@
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.csproj.AssemblyReference.cache
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.AssemblyInfoInputs.cache
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.AssemblyInfo.cs
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\bin\Debug\net7.0\HR.LeaveManagement.Application.deps.json
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\bin\Debug\net7.0\HR.LeaveManagement.Application.runtimeconfig.json
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\bin\Debug\net7.0\HR.LeaveManagement.Application.dll
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\bin\Debug\net7.0\HR.LeaveManagement.Application.pdb
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\bin\Debug\net7.0\HR.LeaveManagement.Domain.dll
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\bin\Debug\net7.0\HR.LeaveManagement.Domain.pdb
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.csproj.CopyComplete
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.dll
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\refint\HR.LeaveManagement.Application.dll
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.pdb
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\HR.LeaveManagement.Application.genruntimeconfig.cache
+C:\Users\sxk2502\source\repos\HRLeaveManagement\HRLeaveManagement\HR.LeaveManagement.Application\obj\Debug\net7.0\ref\HR.LeaveManagement.Application.dll

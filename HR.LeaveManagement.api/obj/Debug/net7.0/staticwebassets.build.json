@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "piccBui7vNeQv0oV+ujbfSO1rXrkh0bCovjh38hteoE=",
+  "Source": "HR.LeaveManagement.api",
+  "BasePath": "_content/HR.LeaveManagement.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
