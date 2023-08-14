@@ -13,7 +13,7 @@ namespace HR.LeaveManagement.Persistence
         {
             services.AddDbContext<LeaveManagementDBContext>(options =>
             options
-            .UseSqlServer(configuration.GetConnectionString("ProdDB"))
+            .UseSqlServer(configuration.GetConnectionString("LeaveManagementConnectionString"))
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
             
 

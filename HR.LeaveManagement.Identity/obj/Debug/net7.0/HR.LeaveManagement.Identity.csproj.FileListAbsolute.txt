@@ -12,3 +12,8 @@ C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\refint\H
 C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.pdb
 C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.genruntimeconfig.cache
 C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\ref\HR.LeaveManagement.Identity.dll
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Application.dll
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Domain.dll
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Application.pdb
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Domain.pdb
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.csproj.CopyComplete
