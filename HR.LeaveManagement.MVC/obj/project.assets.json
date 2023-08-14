@@ -10021,11 +10021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
+      "projectUniqueName": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
       "projectName": "HR.LeaveManagement.MVC",
-      "projectPath": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
+      "projectPath": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
       "packagesPath": "C:\\Users\\sxk2502\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.MVC\\obj\\",
+      "outputPath": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

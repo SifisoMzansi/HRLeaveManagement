@@ -1754,11 +1754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
       "projectName": "HR.LeaveManagement.Infrastructure",
-      "projectPath": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
+      "projectPath": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\sxk2502\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure\\obj\\",
+      "outputPath": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1782,8 +1782,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+            "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+              "projectPath": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
             }
           }
         }

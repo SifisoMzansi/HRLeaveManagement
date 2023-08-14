@@ -1,0 +1,14 @@
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Identity.deps.json
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Identity.runtimeconfig.json
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Identity.dll
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\bin\Debug\net7.0\HR.LeaveManagement.Identity.pdb
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.csproj.AssemblyReference.cache
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.AssemblyInfoInputs.cache
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.AssemblyInfo.cs
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.csproj.CoreCompileInputs.cache
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.dll
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\refint\HR.LeaveManagement.Identity.dll
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.pdb
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\HR.LeaveManagement.Identity.genruntimeconfig.cache
+C:\Repos\HRLeaveManagement\HR.LeaveManagement.Identity\obj\Debug\net7.0\ref\HR.LeaveManagement.Identity.dll

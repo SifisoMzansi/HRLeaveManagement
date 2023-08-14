@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TmCJjxmGc2EYyy7sr5ynV+ibGxFwvHTFj1mUBR+hhmgVEA1mF1AUWCzr9Y5atpcVCPsWFccrvoMKXTuslM6JWQ==",
+  "dgSpecHash": "xCewY8ayMtVlH3Th0vsw2Gh1gCJoLbURwJ0iyWR8r9/2MdSK7i4KzcDlXr9klqtcgvYF/qZ39koSsTnw/is+ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sxk2502\\source\\repos\\HRLeaveManagement\\HRLeaveManagement\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
+  "projectFilePath": "C:\\Repos\\HRLeaveManagement\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sxk2502\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sxk2502\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
