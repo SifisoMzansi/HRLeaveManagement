@@ -16,15 +16,15 @@ namespace HR.LeaveManagement.api.Controllers
             _authenticationService = authenticationService;
         }
 
-        [HttpPost("Login")]
+        [HttpPost("login")]
         public async Task<ActionResult<AuthResponse>> Login(AuthRequest request)
         {
-            return Ok(_authenticationService.Login(request));
+            return Ok(await _authenticationService.Login(request));
         }
         [HttpPost("register")]
         public async Task<ActionResult<RegistrationResponse>> Register(RegistrationRequest request)
         {
-            return Ok(_authenticationService.Register(request));
+            return Ok(await _authenticationService.Register(request));
         }
     }
 }

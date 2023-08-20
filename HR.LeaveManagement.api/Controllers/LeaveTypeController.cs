@@ -4,6 +4,7 @@ using HR.LeaveManagement.Application.Features.LeaveType.Requests.Queries;
 using HR.LeaveManagement.Application.Responses;
 using HR.LeaveManagement.Domain;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,7 +13,8 @@ namespace HR.LeaveManagement.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LeaveTypeController : ControllerBase
+    [Authorize]
+     public class LeaveTypeController : ControllerBase
     {
         private readonly IMediator _mediator;
 

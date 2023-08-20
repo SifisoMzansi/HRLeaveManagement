@@ -2,9 +2,8 @@
 using HR.LeaveManagement.MVC.Contracts;
 using HR.LeaveManagement.MVC.Models;
 using HR.LeaveManagement.MVC.Services.Base;
-using System.Security.Cryptography.Xml;
+using System.Net.Http.Headers;
 using System.Text;
-using System.Xml;
 
 namespace HR.LeaveManagement.MVC.Services
 {
@@ -28,6 +27,7 @@ namespace HR.LeaveManagement.MVC.Services
                 StringBuilder errors = new StringBuilder(); 
                 var response  = new Response<int>();
                 CreateLeaveTypeDto createLeaveTypeDto = _mapper.Map<CreateLeaveTypeDto>(leaveType);
+                AddBearerToken();
                 var ApiResponse = await _client.LeaveTypePOSTAsync(createLeaveTypeDto);
 
                 if (ApiResponse.Success)
@@ -55,7 +55,8 @@ namespace HR.LeaveManagement.MVC.Services
         {
             try
             {
-                 await _client.LeaveTypeDELETEAsync(id);
+                AddBearerToken();
+                await _client.LeaveTypeDELETEAsync(id);
                 return new Response<int> { Success = true };
             }
             catch (ApiException ex) 
@@ -66,12 +67,14 @@ namespace HR.LeaveManagement.MVC.Services
 
         public async Task<LeaveTypeVM> GetLeaveTypeDetails(int id)
         {
+            AddBearerToken();
             var leaveType = await _client.LeaveTypeGETAsync(id);
             return _mapper.Map<LeaveTypeVM>(leaveType);
         }
 
         public async Task<List<LeaveTypeVM>> GetLeaveTypes()
         {
+            AddBearerToken();
             var leaveTypes = await _client.LeaveTypeAllAsync();
             return _mapper.Map<List<LeaveTypeVM>>(leaveTypes);  
          }
@@ -82,6 +85,7 @@ namespace HR.LeaveManagement.MVC.Services
             {
                 leaveType.Id = id;
                 var leaveTypeDTO = _mapper.Map<LeaveTypeDto>(leaveType);
+                AddBearerToken();
                 await _client.LeaveTypePUTAsync(leaveTypeDTO);
                 return new Response<int> { Success = true };
             }
@@ -90,5 +94,13 @@ namespace HR.LeaveManagement.MVC.Services
                 return ConvertApiExceptions<int>(ex);
             }
         }
+
+        protected void AddBearerToken()
+        {
+            if (_localStorageService.Exists("token"))
+            {
+                _client.HttpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _localStorageService.GetStorageValue<string>("token"));
+            }
+        }    
     }
 }

@@ -10,6 +10,8 @@ namespace HR.LeaveManagement.MVC
         {
             CreateMap<CreateLeaveTypeDto, CreateleaveTypeVM>().ReverseMap();
             CreateMap<LeaveTypeDto, LeaveTypeVM>().ReverseMap();
+            CreateMap<RegisterVM, RegistrationRequest>().ReverseMap();
+
         }
     }
 }

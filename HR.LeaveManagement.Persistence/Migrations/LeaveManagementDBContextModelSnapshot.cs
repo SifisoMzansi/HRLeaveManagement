@@ -17,7 +17,7 @@ namespace HR.LeaveManagement.Persistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.9")
+                .HasAnnotation("ProductVersion", "7.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -39,6 +39,10 @@ namespace HR.LeaveManagement.Persistence.Migrations
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("EmployeeId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
@@ -55,8 +59,6 @@ namespace HR.LeaveManagement.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("LeaveTypeID");
 
                     b.ToTable("LeaveAllocations");
                 });
@@ -107,8 +109,6 @@ namespace HR.LeaveManagement.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("LeaveTypeId");
-
                     b.ToTable("LeaveRequests");
                 });
 
@@ -141,29 +141,6 @@ namespace HR.LeaveManagement.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("LeaveTypes");
-                });
-
-
-            modelBuilder.Entity("HR.LeaveManagement.Domain.LeaveAllocation", b =>
-                {
-                    b.HasOne("HR.LeaveManagement.Domain.LeaveType", "LeaveType")
-                        .WithMany()
-                        .HasForeignKey("LeaveTypeID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("LeaveType");
-                });
-
-            modelBuilder.Entity("HR.LeaveManagement.Domain.LeaveRequest", b =>
-                {
-                    b.HasOne("HR.LeaveManagement.Domain.LeaveType", "LeaveType")
-                        .WithMany()
-                        .HasForeignKey("LeaveTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("LeaveType");
                 });
 #pragma warning restore 612, 618
         }

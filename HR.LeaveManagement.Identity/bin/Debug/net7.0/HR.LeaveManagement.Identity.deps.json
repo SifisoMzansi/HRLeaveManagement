@@ -1018,7 +1018,9 @@
           "FluentValidation.DependencyInjectionExtensions": "11.6.0",
           "HR.LeaveManagement.Domain": "1.0.0",
           "MediatR": "12.1.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "System.IdentityModel.Tokens.Jwt": "6.32.1"
         },
         "runtime": {
           "HR.LeaveManagement.Application.dll": {}

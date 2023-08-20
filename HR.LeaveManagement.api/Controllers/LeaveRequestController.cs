@@ -1,10 +1,8 @@
-﻿using HR.LeaveManagement.Application.DTO.LeaveAllocation;
-using HR.LeaveManagement.Application.DTO.LeaveRequest;
-using HR.LeaveManagement.Application.Features.LeaveAllocation.Requests.Commands;
-using HR.LeaveManagement.Application.Features.LeaveAllocation.Requests.Queries;
+﻿using HR.LeaveManagement.Application.DTO.LeaveRequest;
 using HR.LeaveManagement.Application.Features.LeaveRequests.Requests.Command;
 using HR.LeaveManagement.Application.Features.LeaveRequests.Requests.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,6 +11,7 @@ namespace HR.LeaveManagement.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles ="Administrator")]
     public class LeaveRequestController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -42,7 +41,7 @@ namespace HR.LeaveManagement.api.Controllers
         [HttpPost]
         public async Task<ActionResult<int>> Post([FromBody] CreateLeaveRequestDto leaveRequest)
         {
-            var results = await _mediator.Send(new CreateLeaveRequestCommand {  LeaveRequest = leaveRequest });
+            var results = await _mediator.Send(new CreateLeaveRequestCommand {  LeaveRequestDto = leaveRequest });
             return Ok(results);
         }
 

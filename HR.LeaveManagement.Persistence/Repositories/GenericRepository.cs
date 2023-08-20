@@ -15,13 +15,13 @@ namespace HR.LeaveManagement.Persistence.Repositories
         public async Task Add(T entity)
         { 
             await _dBContext.AddAsync(entity);
-            await _dBContext.SaveChangesAsync();         
+          //  await _dBContext.SaveChangesAsync();         
          }
 
         public async Task Delete(T entity)
         {
             _dBContext.Set<T>().Remove(entity);
-            await _dBContext.SaveChangesAsync();
+       //     await _dBContext.SaveChangesAsync();
         }
 
         public async Task<bool> Exists(int id)
@@ -48,7 +48,7 @@ namespace HR.LeaveManagement.Persistence.Repositories
                 _dBContext.Entry(entity).State = EntityState.Modified;
                 _dBContext.Set<T>().Update(entity);
 
-                await _dBContext.SaveChangesAsync();
+               // await _dBContext.SaveChangesAsync();
             }
             catch (Exception ex) 
             {
